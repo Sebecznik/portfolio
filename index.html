@@ -1,136 +1,182 @@
-<!DOCTYPE HTML>
-<!--
-	Strata by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
--->
-<html>
-	<head>
-		<title>Sebastian Paszek - Software Developer</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<link rel="stylesheet" href="assets/css/main.css" />
-	</head>
-	<body class="is-preload">
+﻿<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sebastian Paszek | Cloud Engineer</title>
+    <meta
+      name="description"
+      content="Portfolio of Sebastian Paszek - Cloud Engineer focused on scalable architecture, automation, and reliable delivery."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Sora:wght@500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="assets/css/main.css" />
+  </head>
+  <body>
+    <div class="sky" aria-hidden="true">
+      <div class="cloud cloud-1"></div>
+      <div class="cloud cloud-2"></div>
+      <div class="cloud cloud-3"></div>
+      <div class="cloud cloud-4"></div>
+      <div class="cloud cloud-5"></div>
+      <div class="cloud cloud-6"></div>
+      <div class="grid"></div>
+      <div class="glow glow-1"></div>
+      <div class="glow glow-2"></div>
+    </div>
 
-		<!-- Header -->
-			<header id="header">
-				<div class="inner">
-					<a href="#" class="image avatar"><img src="images/avatar.jpeg" alt="" /></a>
-					<h1><strong>Sebastian Paszek</strong><br />
-					I am a software developer building smart, simple solutions
-					<br>with passion and precision. <br />
-				</div>
-			</header>
+    <div class="layout">
+      <header class="topbar reveal" data-reveal>
+        <a class="brand" href="#home">
+          <span class="brand-dot"></span>
+          Sebastian Paszek
+        </a>
+        <nav class="menu" aria-label="Main navigation">
+          <a href="#about">About</a>
+          <a href="#stack">Stack</a>
+          <a href="#projects">Projects</a>
+          <a href="#contact">Contact</a>
+        </nav>
+        <button class="theme-toggle" id="theme-toggle" type="button" aria-label="Switch theme">
+          <span class="toggle-track">
+            <span class="toggle-thumb"></span>
+          </span>
+          <span class="toggle-label" id="theme-label">Dark</span>
+        </button>
+      </header>
 
-		<!-- Main -->
-			<div id="main">
+      <main class="sections">
+        <section class="section-band hero-band" id="home">
+          <div class="hero-content reveal" data-reveal>
+            <p class="eyebrow">Cloud Engineer</p>
+            <h1>Designing reliable cloud systems that scale with your growth.</h1>
+            <p class="hero-text">
+              I build secure, observable, and cost-aware platforms with automation first. From infrastructure design to delivery pipelines,
+              I focus on clean architecture and measurable reliability.
+            </p>
+            <div class="hero-actions">
+              <a class="btn btn-primary" href="#projects">View Projects</a>
+              <a class="btn btn-ghost" href="#contact">Work With Me</a>
+            </div>
+            <ul class="stats">
+              <li>
+                <p class="stat-value" data-counter="15">0</p>
+                <p class="stat-label">Cloud Deployments</p>
+              </li>
+              <li>
+                <p class="stat-value" data-counter="99">0</p>
+                <p class="stat-label">Uptime Target (%)</p>
+              </li>
+              <li>
+                <p class="stat-value" data-counter="24">0</p>
+                <p class="stat-label">Automation Flows</p>
+              </li>
+            </ul>
+          </div>
 
-				<!-- About me section
-				<section id="about" style="height: 0;">
-					
-				</section>
+          <aside class="hero-card reveal" data-reveal>
+            <img src="images/avatar.jpeg" alt="Portrait of Sebastian Paszek" />
+            <div class="hero-card-content">
+              <h2>Platform Mindset</h2>
+              <p>
+                Infrastructure as Code, CI/CD automation, and production-grade monitoring built for teams that need speed without compromise.
+              </p>
+            </div>
+            <div class="status-pill">
+              <span class="status-dot"></span>
+              Available for cloud-focused roles
+            </div>
+          </aside>
+        </section>
 
-				About my work section
-				<section id="work" style="height: 0;">
- 				-->
+        <section class="section-band reveal" id="about" data-reveal>
+          <p class="section-kicker">About</p>
+          <h2>Minimal solutions, strong engineering standards.</h2>
+          <p>
+            I am a cloud-oriented software engineer focused on building dependable systems with clear ownership and clean operations. I enjoy
+            turning complex infrastructure into predictable, maintainable workflows that teams can trust.
+          </p>
+        </section>
 
-				<!-- One -->
-					<section id="one">
-						<header class="major">
-							<h2>Curious mind. Passionate coder. Data enthusiast.</h2>
-						</header>
-						<p>I’m passionate about software development — especially when it comes to building mobile applications, working with data, and creating efficient systems for managing information. I enjoy turning ideas into working solutions, not just as a way to grow my technical skills, but also because I genuinely like solving real problems through code.
+        <section class="section-band" id="stack">
+          <div class="section-head reveal" data-reveal>
+            <p class="section-kicker">Stack</p>
+            <h2>Core strengths for modern cloud environments</h2>
+          </div>
+          <div class="stack-grid">
+            <article class="stack-card reveal" data-reveal>
+              <h3>Cloud Architecture</h3>
+              <p>AWS and Azure fundamentals, network-aware design, scalable compute, resilient storage, and secure service boundaries.</p>
+            </article>
+            <article class="stack-card reveal" data-reveal>
+              <h3>Automation & IaC</h3>
+              <p>Infrastructure as Code and repeatable provisioning workflows with strong focus on consistency across environments.</p>
+            </article>
+            <article class="stack-card reveal" data-reveal>
+              <h3>DevOps Delivery</h3>
+              <p>CI/CD pipelines, release reliability, and measurable quality gates to ship faster with lower risk.</p>
+            </article>
+            <article class="stack-card reveal" data-reveal>
+              <h3>Observability</h3>
+              <p>Monitoring, log strategy, and incident-oriented telemetry to keep production visible and stable.</p>
+            </article>
+          </div>
+        </section>
 
-While I’m still early in my professional journey, I’ve already worked on several personal and academic projects that helped me get hands-on with tools like Flutter and Android Studio for mobile development, and Python with SQL for backend logic and data handling. I'm not claiming to be an expert, but I make a conscious effort to write clean, understandable code and always learn from feedback, whether I'm working alone or with a team.
+        <section class="section-band" id="projects">
+          <div class="section-head reveal" data-reveal>
+            <p class="section-kicker">Projects</p>
+            <h2>Selected work</h2>
+          </div>
 
-I believe that in today’s world — where data is everywhere — knowing how to process and use it responsibly is a major advantage. That’s why I’m drawn to projects that connect software with meaningful data use, like organizing patient records or improving workflows in health-related environments.
+          <div class="projects-grid">
+            <article class="project-card reveal" data-reveal>
+              <img src="images/thumbs/01.png" alt="Sanitariusz app preview" />
+              <div class="project-content">
+                <h3>Sanitariusz App</h3>
+                <p>Patient management workflow with emphasis on clarity, speed, and reliable data handling.</p>
+              </div>
+            </article>
 
-Through university, side projects, and continuous learning, I’ve built a solid foundation and I’m always hungry to level up — whether that’s through contributing to open-source, participating in team-based challenges, or simply experimenting on my own. My goal is to keep building software that not only works well, but actually improves people’s lives, even in small ways.</p>
-						<ul class="actions">
-							<!-- <li><a href="#" data-section="about" class="button">More about me</a></li> -->
-						</ul>
-					</section>
+            <article class="project-card reveal" data-reveal>
+              <img src="images/thumbs/02.png" alt="Bank assistant preview" />
+              <div class="project-content">
+                <h3>MyBank AI Assistant</h3>
+                <p>Assistant concept for banking support, improving client experience with automation-driven interactions.</p>
+              </div>
+            </article>
 
-				<!-- Two -->
-					<section id="two">
-						<h2>Recent Work</h2>
-						<div class="row">
-							<article class="col-6 col-12-xsmall work-item">
-								<a href="images/fulls/01.png" class="image fit thumb"><img src="images/thumbs/01.png" alt="" /></a>
-								<h3>Sanitariusz App</h3>
-								<p>Created to simplify patient management process</p>
-							</article>
-							<article class="col-6 col-12-xsmall work-item">
-								<a href="images/fulls/02.png" class="image fit thumb"><img src="images/thumbs/02.png" alt="" /></a>
-								<h3>MyBankAIAssistant</h3>
-								<p>Created to simplify bank clients experience</p>
-							</article>
-							<article class="col-6 col-12-xsmall work-item">
-								<a href="images/fulls/03.jpg" class="image fit thumb"><img src="images/thumbs/03.jpg" alt="" /></a>
-								<h3>Project Management App</h3>
-								<p>Created to simplify project management process</p>
-							</article>
-						</div>
-						<ul class="actions">
-							<!-- <li><a href="#" data-section="work"  class="button">More about my work</a></li> -->
-						</ul>
-					</section>
+            <article class="project-card reveal" data-reveal>
+              <img src="images/thumbs/03.jpg" alt="Project management app preview" />
+              <div class="project-content">
+                <h3>Project Management App</h3>
+                <p>Task and collaboration application focused on structured planning and transparent team execution.</p>
+              </div>
+            </article>
+          </div>
+        </section>
 
-				<!-- Three -->
-					<section id="three">
-						<h2>Contact me!</h2>
-						<div class="row">
-							<div class="col-8 col-12-small">
-								<form method="post" action="#">
-									<div class="row gtr-uniform gtr-50">
-										<div class="col-6 col-12-xsmall"><input type="text" name="name" id="name" placeholder="Name" /></div>
-										<div class="col-6 col-12-xsmall"><input type="email" name="email" id="email" placeholder="Email" /></div>
-										<div class="col-12"><textarea name="message" id="message" placeholder="Unfortunately, GitHub pages can only serve static content. GitHub doesn't allow POST request, that's why I won't receive your message. " rows="4"></textarea></div>
-									</div>
-								</form>
-								<ul class="actions">
-									<li><input type="submit" value="Send Message" /></li>
-								</ul>
-							</div>
-							<div class="col-4 col-12-small">
-								<ul class="labeled-icons">
-									<li>
-										<h3 class="icon solid fa-mobile-alt"><span class="label">Phone</span></h3>
-										+48 503 721 183
-									</li>
-									<li>
-										<h3 class="icon solid fa-envelope"><span class="label">Email</span></h3>
-										<a href="#">paszek0302@gmail.com</a>
-									</li>
-								</ul>
-							</div>
-						</div>
-					</section>
-			</div>
+        <section class="section-band contact reveal" id="contact" data-reveal>
+          <p class="section-kicker">Contact</p>
+          <h2>Let us build reliable cloud systems together.</h2>
+          <div class="contact-grid">
+            <a href="mailto:paszek0302@gmail.com">paszek0302@gmail.com</a>
+            <a href="tel:+48503721183">+48 503 721 183</a>
+            <a href="https://github.com" target="_blank" rel="noreferrer">GitHub</a>
+            <a href="https://linkedin.com" target="_blank" rel="noreferrer">LinkedIn</a>
+          </div>
+        </section>
+      </main>
 
-		<!-- Footer -->
-			<footer id="footer">
-				<div class="inner">
-					<ul class="icons">
-						<li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
-						<li><a href="#" class="icon brands fa-github"><span class="label">Github</span></a></li>
-						<li><a href="#" class="icon brands fa-dribbble"><span class="label">Dribbble</span></a></li>
-						<li><a href="#" class="icon solid fa-envelope"><span class="label">Email</span></a></li>
-					</ul>
-					<ul class="copyright">
-						<li>&copy; Sebastian Paszek</li>
-					</ul>
-				</div>
-			</footer>
+      <footer class="footer reveal" data-reveal>
+        <p>&copy; <span id="year"></span> Sebastian Paszek. Cloud Engineer Portfolio.</p>
+      </footer>
+    </div>
 
-		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/jquery.poptrox.min.js"></script>
-			<script src="assets/js/browser.min.js"></script>
-			<script src="assets/js/breakpoints.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<script src="assets/js/main.js"></script>
-			<script src="assets/js/dynamic-content.js"></script>
-	</body>
+    <script src="assets/js/main.js"></script>
+  </body>
 </html>
