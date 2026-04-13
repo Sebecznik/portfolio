@@ -531,12 +531,25 @@ html[data-theme="light"] .btn-primary {
 .project-card img {
   width: 100%;
   aspect-ratio: 16 / 10;
-  object-fit: cover;
+  object-fit: contain;
+  object-position: center top;
   border: 1px solid var(--line);
+  border-radius: 12px;
+  background: var(--surface-strong);
+  padding: 6px;
 }
 
 .project-content h3 {
   font-size: 1.06rem;
+}
+
+.project-stack {
+  margin: 8px 0 0;
+  color: var(--accent);
+  font-size: 0.84rem;
+  font-weight: 700;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
 }
 
 .project-content p {
@@ -546,18 +559,24 @@ html[data-theme="light"] .btn-primary {
   font-size: 0.92rem;
 }
 
+.project-note {
+  font-size: 0.88rem;
+}
+
 .contact-grid {
   margin-top: 18px;
   display: grid;
   gap: 12px;
 }
 
+.contact-grid p,
 .contact-grid a {
   width: fit-content;
   border-bottom: 1px solid var(--line-strong);
   padding: 0 0 5px;
   color: var(--text);
   transition: transform 0.22s ease, color 0.22s ease;
+  margin: 0;
 }
 
 .contact-grid a:hover {
@@ -778,6 +797,7 @@ html[data-theme="light"] .btn-primary {
     gap: 8px;
   }
 
+  .contact-grid p,
   .contact-grid a {
     width: 100%;
     text-align: center;
