@@ -1,235 +1,117 @@
-﻿<!DOCTYPE html>
-<html lang="en" data-theme="dark">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Sebastian Paszek | Software Developer</title>
-    <meta
-      name="description"
-      content="Portfolio of Sebastian Paszek - Software Developer focused on practical applications, cloud technologies, AI tools, and useful automation."
-    />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Sora:wght@500;600;700&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="assets/css/main.css" />
-  </head>
-  <body>
-    <div class="sky" aria-hidden="true">
-      <div class="cloud cloud-1"></div>
-      <div class="cloud cloud-2"></div>
-      <div class="cloud cloud-3"></div>
-      <div class="cloud cloud-4"></div>
-      <div class="cloud cloud-5"></div>
-      <div class="cloud cloud-6"></div>
-      <div class="grid"></div>
-      <div class="glow glow-1"></div>
-      <div class="glow glow-2"></div>
+<!doctype html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f7f7f2">
+  <title>Sebastian Paszek — Cloud Support &amp; Software</title>
+  <meta name="description" content="Cloud Support Engineer at SAP. I work with SAP Commerce Cloud, Azure and Kubernetes, and build practical applications, AI tools and automation.">
+  <link rel="canonical" href="https://sebecznik.github.io/portfolio/">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Sebastian Paszek — Cloud Support &amp; Software">
+  <meta property="og:description" content="Cloud engineer. Builder by curiosity. Explore my work in SAP Commerce Cloud, practical software and AI.">
+  <meta property="og:url" content="https://sebecznik.github.io/portfolio/">
+  <meta property="og:image" content="https://sebecznik.github.io/portfolio/assets/images/social.png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="Sebastian Paszek. Cloud engineer. Builder by curiosity.">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="icon" href="assets/images/favicon.svg" type="image/svg+xml">
+  <script src="assets/js/boot.js"></script>
+  <link rel="stylesheet" href="assets/css/styles.css">
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"Person","name":"Sebastian Paszek","url":"https://sebecznik.github.io/portfolio/","image":"https://sebecznik.github.io/portfolio/assets/images/portrait.png","jobTitle":"Cloud Support Engineer","worksFor":{"@type":"Organization","name":"SAP"},"knowsLanguage":["Polish","English"],"email":"mailto:paszek0302@gmail.com"}</script>
+</head>
+<body>
+  <a class="skip-link" href="#main" data-i18n="skip">Skip to content</a>
+  <svg class="symbol-bank" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+    <symbol id="i-arrow" viewBox="0 0 24 24"><path d="M5 19 19 5M5 5h14v14"/></symbol>
+    <symbol id="i-right" viewBox="0 0 24 24"><path d="M4 12h16m-7-7 7 7-7 7"/></symbol>
+    <symbol id="i-plus" viewBox="0 0 24 24"><path d="M12 5v14M5 12h14"/></symbol>
+    <symbol id="i-cloud" viewBox="0 0 32 32"><path d="M9 24a7 7 0 0 1-1-13.93A9 9 0 0 1 25 11a6.5 6.5 0 0 1-1 13H9Z"/><path d="m12 17 4-4 4 4m-4-4v14"/></symbol>
+    <symbol id="i-code" viewBox="0 0 32 32"><path d="m10 8-8 8 8 8m12-16 8 8-8 8M19 4l-6 24"/></symbol>
+    <symbol id="i-spark" viewBox="0 0 32 32"><path d="m16 2 3.8 10.2L30 16l-10.2 3.8L16 30l-3.8-10.2L2 16l10.2-3.8L16 2Z"/></symbol>
+    <symbol id="i-car" viewBox="0 0 32 32"><path d="m5 12 3-7h16l3 7M4 13h24v12H4zM8 25v3m16-3v3M8 18h3m10 0h3M2 12h28"/></symbol>
+    <symbol id="i-chip" viewBox="0 0 32 32"><path d="M7 7h18v18H7zM12 12h8v8h-8zM12 2v5m8-5v5M12 25v5m8-5v5M2 12h5m-5 8h5m18-8h5m-5 8h5"/></symbol>
+    <symbol id="i-game" viewBox="0 0 32 32"><path d="M10 9h12c4 0 5 3 6 7l2 7c1 4-3 6-6 3l-4-4h-8l-4 4c-3 3-7 1-6-3l2-7c1-4 2-7 6-7Z"/><path d="M9 13v8m-4-4h8m10-2h.01m3 4h.01"/></symbol>
+    <symbol id="i-mail" viewBox="0 0 24 24"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m3 6 9 7 9-7"/></symbol>
+    <symbol id="i-copy" viewBox="0 0 24 24"><rect x="8" y="8" width="12" height="13" rx="2"/><path d="M15 8V5a2 2 0 0 0-2-2H5a2 2 0 0 0-2 2v9a2 2 0 0 0 2 2h3"/></symbol>
+    <symbol id="i-pin" viewBox="0 0 24 24"><path d="M19 10c0 5-7 11-7 11S5 15 5 10a7 7 0 1 1 14 0Z"/><circle cx="12" cy="10" r="2"/></symbol>
+    <symbol id="i-file" viewBox="0 0 24 24"><path d="M14 3H5v18h14V8l-5-5Zm0 0v5h5M8 13h8m-8 4h6"/></symbol>
+    <symbol id="i-close" viewBox="0 0 24 24"><path d="m6 6 12 12M6 18 18 6"/></symbol>
+  </svg>
+
+  <header class="site-header" id="top">
+    <div class="header-inner container">
+      <a class="brand" href="#top" aria-label="Sebastian Paszek — home"><span class="brand-mark">sp<span>.</span></span><span class="brand-name">Sebastian Paszek<span class="brand-caption">PERSONAL PORTFOLIO</span></span></a>
+      <nav class="main-nav" id="navigation" aria-label="Main navigation">
+        <a href="#about" data-i18n="nav.about">About</a>
+        <a href="#projects" data-i18n="nav.work">Projects</a>
+        <a href="#experience" data-i18n="nav.experience">Experience</a>
+      </nav>
+      <div class="header-controls">
+        <div class="language-switch" role="group" aria-label="Language" data-i18n-aria="nav.language">
+          <button type="button" data-language="en" aria-pressed="true" lang="en">EN</button><span aria-hidden="true">/</span><button type="button" data-language="pl" aria-pressed="false" lang="pl">PL</button>
+        </div>
+        <button class="icon-button theme-button" type="button" id="theme-toggle" aria-label="Switch color theme" data-i18n-aria="nav.theme" aria-pressed="false"><svg class="icon moon" viewBox="0 0 24 24" aria-hidden="true"><path d="M20 15A8.5 8.5 0 0 1 9 4a8.5 8.5 0 1 0 11 11Z"/></svg><svg class="icon sun" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="4"/><path d="M12 2v2m0 16v2M2 12h2m16 0h2M5 5l1.5 1.5m11 11L19 19M5 19l1.5-1.5m11-11L19 5"/></svg></button>
+        <a class="header-contact" href="#contact"><span data-i18n="nav.contact">Let’s talk</span><svg class="icon" aria-hidden="true"><use href="#i-arrow"/></svg></a>
+        <button class="icon-button menu-button" type="button" id="menu-toggle" aria-label="Open navigation" data-i18n-aria="nav.menu" aria-expanded="false" aria-controls="navigation"><span></span><span></span></button>
+      </div>
     </div>
+  </header>
 
-    <div class="layout">
-      <header class="topbar reveal" data-reveal>
-        <a class="brand" href="#home">
-          <span class="brand-dot"></span>
-          Sebastian Paszek
-        </a>
-        <nav class="menu" aria-label="Main navigation">
-          <a href="#about">About</a>
-          <a href="#skills">Skills</a>
-          <a href="#projects">Projects</a>
-          <a href="#contact">Contact</a>
-        </nav>
-        <button class="theme-toggle" id="theme-toggle" type="button" aria-label="Switch theme">
-          <span class="toggle-track">
-            <span class="toggle-thumb"></span>
-          </span>
-          <span class="toggle-label" id="theme-label">Dark</span>
-        </button>
-      </header>
+  <main id="main">
+    <section class="hero container" aria-labelledby="hero-title">
+      <div class="hero-copy">
+        <p class="eyebrow"><span class="tiny-star" aria-hidden="true">✳</span><span data-i18n="hero.greeting">HI, I’M SEBASTIAN PASZEK</span></p>
+        <h1 id="hero-title"><span data-i18n="hero.line1">Cloud engineer.</span><span data-i18n="hero.line2">Builder by</span><em data-i18n="hero.line3">curiosity.</em></h1>
+        <p class="hero-description" data-i18n="hero.description">I support SAP Commerce Cloud environments and build practical software. I like understanding how things work — and finding a better way to make them work.</p>
+        <div class="hero-actions"><a class="button button-primary" href="#projects"><span data-i18n="hero.projects">Explore my work</span><svg class="icon" aria-hidden="true"><use href="#i-arrow"/></svg></a><a class="text-link" href="assets/CV-Sebastian-Paszek.pdf" target="_blank" rel="noopener noreferrer"><svg class="icon" aria-hidden="true"><use href="#i-file"/></svg><span data-i18n="hero.cv">View CV</span><span class="file-type">PDF</span></a></div>
+        <div class="hero-meta"><span><svg class="icon" aria-hidden="true"><use href="#i-pin"/></svg><span data-i18n="hero.location">Silesia, Poland</span></span><span class="meta-dot" aria-hidden="true"></span><span data-i18n="hero.languages">Polish &amp; English</span></div>
+      </div>
+      <div class="hero-visual">
+        <div class="portrait-frame"><img class="portrait" src="assets/images/portrait.png" width="1624" height="1536" fetchpriority="high" alt="Portrait of Sebastian Paszek" data-i18n-alt="hero.portrait"><div class="portrait-signature" aria-hidden="true"><span data-i18n="hero.always">Always</span><br><em data-i18n="hero.curious">curious.</em><svg viewBox="0 0 110 65"><path d="M5 42C35 5 63 8 95 22m-7-17 12 19-23 6"/></svg></div></div>
+        <div class="current-card"><div class="current-top"><span class="status-light" aria-hidden="true"></span><span data-i18n="hero.current">CURRENTLY AT SAP</span><svg class="icon" aria-hidden="true"><use href="#i-cloud"/></svg></div><p data-i18n="hero.role">Cloud Support Engineer</p><span data-i18n="hero.since">Since October 2025</span></div>
+        <p class="portrait-note" data-i18n="hero.note">A technical mind. A human approach.</p>
+      </div>
+    </section>
 
-      <main class="sections">
-        <section class="section-band hero-band" id="home">
-          <div class="hero-content reveal" data-reveal>
-            <p class="eyebrow">Software Developer</p>
-            <h1>Building practical software, cloud-ready solutions, and AI-powered tools.</h1>
-            <p class="hero-text">
-              I am a software developer and Computer Science student with professional experience in cloud support. I enjoy creating
-              practical applications, exploring cloud technologies such as Microsoft Azure and Kubernetes, and using AI tools to build
-              solutions that improve everyday work and life.
-            </p>
-            <div class="hero-actions">
-              <a class="btn btn-primary" href="assets/CV-Sebastian-Paszek.pdf" target="_blank" rel="noreferrer">Download CV</a>
-              <a class="btn btn-ghost" href="#projects">View Projects</a>
-            </div>
-            <ul class="stats">
-              <li>
-                <p class="stat-value">Cloud</p>
-                <p class="stat-label">Azure, Kubernetes, CI/CD basics</p>
-              </li>
-              <li>
-                <p class="stat-value">AI</p>
-                <p class="stat-label">Tools, workflows, practical use cases</p>
-              </li>
-              <li>
-                <p class="stat-value">Apps</p>
-                <p class="stat-label">Web and cross-platform mobile projects</p>
-              </li>
-            </ul>
-          </div>
+    <div class="tool-strip container"><p class="eyebrow" data-i18n="stack.label">PART OF MY TOOLKIT</p><div class="tool-strip-items"><span>SAP Commerce Cloud</span><span>Microsoft Azure</span><span>Kubernetes</span><span>Dynatrace</span><span>Python</span><span>Kotlin</span></div></div>
 
-          <aside class="hero-card reveal" data-reveal>
-            <img src="images/avatar.png" alt="Portrait of Sebastian Paszek" />
-            <div class="hero-card-content">
-              <h2>Profile Snapshot</h2>
-              <p>
-                Currently working as a Cloud Support Engineer at SAP and studying Computer Science at the Silesian University of
-                Technology in Gliwice.
-              </p>
-            </div>
-            <div class="status-pill">
-              <span class="status-dot"></span>
-              Interested in cloud technologies, AI tools, and useful automation
-            </div>
-          </aside>
-        </section>
+    <section class="about-section container section-grid" id="about" aria-labelledby="about-title">
+      <p class="section-label" data-i18n="about.label">01 / ABOUT ME</p>
+      <div class="section-main" data-reveal><h2 id="about-title"><span data-i18n="about.title1">Behind every system,</span><em data-i18n="about.title2">there are people.</em></h2><div class="about-copy"><p class="lead" data-i18n="about.body">I’m a Cloud Support Engineer at SAP and a Computer Science student at the Silesian University of Technology. My work connects technical investigation with clear communication: understanding an issue, following the evidence and helping people move forward.</p><p data-i18n="about.body2">Outside support, I build web and mobile applications, experiment with AI and automate repetitive tasks. My earlier work in healthcare still shapes how I design software: start with the people who will actually use it.</p></div><dl class="facts"><div><dt>2025</dt><dd data-i18n="about.fact1">Cloud support at SAP</dd></div><div><dt>2027<span>*</span></dt><dd data-i18n="about.fact2">Expected graduation</dd></div><div><dt>PL / EN</dt><dd data-i18n="about.fact3">Working languages</dd></div></dl></div>
+    </section>
 
-        <section class="section-band reveal" id="about" data-reveal>
-          <p class="section-kicker">About</p>
-          <h2>Technical profile shaped by practice and curiosity.</h2>
-          <p>
-            I currently work as a Cloud Support Engineer at SAP, supporting production environments by troubleshooting issues, analyzing
-            logs, and helping maintain system stability.
-          </p>
-          <p>
-            I am also completing a Computer Science engineer degree at the Silesian University of Technology in Gliwice. My main
-            interests are cloud technologies, AI technologies and tools, and building practical software that solves real problems in a
-            clear and useful way.
-          </p>
-          <p>
-            In my own projects, I focus on web and mobile applications, AI-assisted analysis, and tools that help improve everyday work
-            and life.
-          </p>
-        </section>
+    <section class="expertise-section" aria-labelledby="expertise-title"><div class="container expertise-inner"><div class="expertise-intro" data-reveal><p class="eyebrow" data-i18n="expertise.label">WHAT I BRING TO THE TABLE</p><h2 id="expertise-title" data-i18n="expertise.title">From investigation to implementation.</h2><p data-i18n="expertise.intro">Production support gives me context. Building software gives me another way to solve the problem.</p><div class="abstract-mark" aria-hidden="true"><svg viewBox="0 0 160 160"><path d="M80 8v144M8 80h144M29 29l102 102M29 131 131 29"/></svg><span>THINK.<br>BUILD.<br>IMPROVE.</span></div></div>
+      <div class="expertise-list">
+        <details class="expertise-item" open><summary><svg class="expertise-icon" aria-hidden="true"><use href="#i-cloud"/></svg><h3 data-i18n="expertise.cloud.title">Cloud &amp; production support</h3><svg class="icon plus" aria-hidden="true"><use href="#i-plus"/></svg></summary><div class="expertise-content"><p data-i18n="expertise.cloud.body">Investigating SAP Commerce Cloud incidents across storefronts, Backoffice and APIs. I connect application logs, monitoring and Kubernetes events to understand what happened.</p><ul><li data-i18n="expertise.cloud.item1">Performance, deployments and authentication</li><li data-i18n="expertise.cloud.item2">Log correlation and root cause investigation</li><li data-i18n="expertise.cloud.item3">Customer communication, escalations and technical documentation</li></ul></div></details>
+        <details class="expertise-item"><summary><svg class="expertise-icon" aria-hidden="true"><use href="#i-code"/></svg><h3 data-i18n="expertise.software.title">Software &amp; automation</h3><svg class="icon plus" aria-hidden="true"><use href="#i-plus"/></svg></summary><div class="expertise-content"><p data-i18n="expertise.software.body">Building web and mobile tools around real workflows, from patient-care coordination to support operations. I use AI-assisted development to explore ideas, implement features and iterate.</p><ul><li data-i18n="expertise.software.item1">Cross-platform mobile applications</li><li data-i18n="expertise.software.item2">Web interfaces, API integrations and internal tools</li><li data-i18n="expertise.software.item3">Practical scripts and workflow improvements</li></ul></div></details>
+        <details class="expertise-item"><summary><svg class="expertise-icon" aria-hidden="true"><use href="#i-spark"/></svg><h3 data-i18n="expertise.ai.title">AI &amp; data exploration</h3><svg class="icon plus" aria-hidden="true"><use href="#i-plus"/></svg></summary><div class="expertise-content"><p data-i18n="expertise.ai.body">Using AI as part of the workflow: exploring code, making sense of information and building features that turn unstructured data into something useful.</p><ul><li data-i18n="expertise.ai.item1">AI-assisted analysis and development</li><li data-i18n="expertise.ai.item2">Comment analysis and contextual Q&amp;A</li><li data-i18n="expertise.ai.item3">Computer Science studies with a focus on data analysis engineering</li></ul></div></details>
+      </div>
+    </div></section>
 
-        <section class="section-band" id="skills">
-          <div class="section-head reveal" data-reveal>
-            <p class="section-kicker">Skills</p>
-            <h2>Core technologies and strengths</h2>
-          </div>
-          <div class="stack-grid">
-            <article class="stack-card reveal" data-reveal>
-              <h3>Programming Languages</h3>
-              <p>Python, Java, C++, SQL, HTML, CSS.</p>
-            </article>
-            <article class="stack-card reveal" data-reveal>
-              <h3>Cloud & Automation</h3>
-              <p>Microsoft Azure, Kubernetes, CI/CD basics, automation.</p>
-            </article>
-            <article class="stack-card reveal" data-reveal>
-              <h3>Monitoring & Troubleshooting</h3>
-              <p>Log analysis, incident investigation, root cause analysis, and maintaining system stability in production environments.</p>
-            </article>
-            <article class="stack-card reveal" data-reveal>
-              <h3>Tools & Technologies</h3>
-              <p>Android Studio, GitHub, XAMPP, VS Code, Visual Studio, PyCharm, CLion, IntelliJ IDEA.</p>
-            </article>
-            <article class="stack-card reveal" data-reveal>
-              <h3>Soft Skills</h3>
-              <p>Quick adaptation to new technologies, communication, problem-solving, teamwork, time management.</p>
-            </article>
-            <article class="stack-card reveal" data-reveal>
-              <h3>Growth Mindset</h3>
-              <p>Eager to learn new technologies and actively expand knowledge.</p>
-            </article>
-          </div>
-        </section>
+    <section class="projects-section container" id="projects" aria-labelledby="projects-title"><div class="section-heading"><div><p class="section-label" data-i18n="projects.label">02 / SELECTED WORK</p><h2 id="projects-title"><span data-i18n="projects.title1">Built around</span><em data-i18n="projects.title2">real problems.</em></h2></div><p data-i18n="projects.intro">A few examples of what happens when curiosity becomes a working tool.</p></div>
+      <div class="project-grid">
+        <article class="project" data-reveal><a class="project-image" href="assets/images/sanitariusz.png" data-preview="mobile" aria-label="Enlarge preview — SanitariuszApp"><img src="assets/images/sanitariusz.png" width="2940" height="1656" loading="lazy" decoding="async" alt="SanitariuszApp: mobile application overview and administrator dashboard" data-i18n-alt="projects.mobile.alt"><span class="preview-icon"><svg class="icon" aria-hidden="true"><use href="#i-arrow"/></svg></span><span class="preview-text" data-i18n="projects.preview">Enlarge preview</span></a><div class="project-body"><p class="eyebrow" data-i18n="projects.mobile.category">01 — MOBILE APPLICATION</p><h3 data-i18n="projects.mobile.title">SanitariuszApp</h3><p class="project-description" data-i18n="projects.mobile.description">A shared workspace for daily patient-care operations. Patient records, procedures and shift handovers, brought together in a cross-platform mobile app.</p><ul class="tags"><li>Kotlin</li><li>Compose Multiplatform</li><li>Firebase</li><li>Android / iOS</li></ul><details class="project-details"><summary><span data-i18n="projects.detail">Explore the project</span><svg class="icon plus" aria-hidden="true"><use href="#i-plus"/></svg></summary><div class="project-story"><p class="eyebrow" data-i18n="projects.why">THE PROBLEM</p><p data-i18n="projects.mobile.problem">Working in healthcare showed me how important clear information and a well-organized handover are. This project brings those daily workflows into one interface.</p><p class="eyebrow" data-i18n="projects.how">THE APPROACH</p><p data-i18n="projects.mobile.approach">Kotlin and Compose Multiplatform for Android and iOS, with local persistence and Firebase Firestore synchronization. The app includes role-aware patient management, procedure tracking and administrative tools.</p><p class="project-focus" data-i18n="projects.mobile.focus">My focus: application development, workflow design and cross-device data synchronization.</p></div></details></div></article>
+        <article class="project" data-reveal><a class="project-image project-image-blue" href="assets/images/comments-analyzer.png" data-preview="ai" aria-label="Enlarge preview — YouTube Comments Analyzer"><img src="assets/images/comments-analyzer.png" width="2814" height="1490" loading="lazy" decoding="async" alt="YouTube Comments Analyzer dashboard showing topics, comment activity and spam analysis" data-i18n-alt="projects.ai.alt"><span class="preview-icon"><svg class="icon" aria-hidden="true"><use href="#i-arrow"/></svg></span><span class="preview-text" data-i18n="projects.preview">Enlarge preview</span></a><div class="project-body"><p class="eyebrow" data-i18n="projects.ai.category">02 — AI &amp; WEB APPLICATION</p><h3 data-i18n="projects.ai.title">YouTube Comments Analyzer</h3><p class="project-description" data-i18n="projects.ai.description">From a busy comment section to a clearer picture. A web application for exploring discussions, spotting recurring topics and asking questions about the comments.</p><ul class="tags"><li>Python</li><li>JavaScript</li><li>Gemini API</li></ul><details class="project-details"><summary><span data-i18n="projects.detail">Explore the project</span><svg class="icon plus" aria-hidden="true"><use href="#i-plus"/></svg></summary><div class="project-story"><p class="eyebrow" data-i18n="projects.why">THE PROBLEM</p><p data-i18n="projects.ai.problem">A long comment section contains useful feedback, but finding patterns manually is slow. I wanted a more practical way to explore what an audience is talking about.</p><p class="eyebrow" data-i18n="projects.how">THE APPROACH</p><p data-i18n="projects.ai.approach">A Python backend with a JavaScript interface. It collects and processes comments, surfaces popular entries and recurring topics, flags potential spam and uses the Google GenAI SDK for contextual Q&amp;A.</p><p class="project-focus" data-i18n="projects.ai.focus">My focus: data processing, the web interface and Gemini integration.</p></div></details></div></article>
+      </div>
+      <article class="internal-project" data-reveal><div class="internal-copy"><p class="eyebrow" data-i18n="projects.internal.category">03 — TOOLS &amp; AUTOMATION</p><h3 data-i18n="projects.internal.title">Small tools. Everyday improvements.</h3><p data-i18n="projects.internal.description">I build practical applications, scripts and integrations that simplify repetitive tasks and make information easier to work with. Ideas often start with something that could work better in everyday life.</p><p data-i18n="projects.internal.scope">My focus is on clear interfaces, connecting data and useful automation. I use AI to explore ideas and turn them into working solutions.</p><span class="internal-note"><span aria-hidden="true">↳</span><span data-i18n="projects.internal.note">Scripts · Integrations · Workflow improvements</span></span></div><div class="workflow-figure"><p class="eyebrow" data-i18n="projects.internal.diagram">FROM IDEA TO USEFUL TOOL</p><ol class="workflow-steps"><li><span class="step-no">01</span><span data-i18n="projects.internal.queue">Understand the task</span><span class="mini-bars" aria-hidden="true"><i></i><i></i><i></i></span></li><li><span class="step-no">02</span><span data-i18n="projects.internal.priority">Build a useful tool</span><span class="mini-priority" aria-hidden="true">↑</span></li><li><span class="step-no">03</span><span data-i18n="projects.internal.handover">Simplify the workflow</span><svg class="icon" aria-hidden="true"><use href="#i-right"/></svg></li></ol><p class="workflow-caption" data-i18n="projects.internal.caption">A practical approach to everyday problem-solving.</p></div></article>
+    </section>
 
-        <section class="section-band" id="education">
-          <div class="section-head reveal" data-reveal>
-            <p class="section-kicker">Education</p>
-            <h2>Formal background and ongoing learning</h2>
-          </div>
-          <div class="stack-grid">
-            <article class="stack-card reveal" data-reveal>
-              <h3>Silesian University of Technology, Gliwice</h3>
-              <p>Computer Science engineer degree, 2023 - present (2027).</p>
-            </article>
-            <article class="stack-card reveal" data-reveal>
-              <h3>Władysław Szybiński High School, Cieszyn</h3>
-              <p>2019 - 2023.</p>
-            </article>
-            <article class="stack-card reveal" data-reveal>
-              <h3>Certificates</h3>
-              <p>INF 03: Web &amp; database development and administration. INF 04: Application design and programming.</p>
-            </article>
-            <article class="stack-card reveal" data-reveal>
-              <h3>Current Learning</h3>
-              <p>AZ-900 Certificate in progress. Udemy courses: Java, Python.</p>
-            </article>
-          </div>
-        </section>
+    <section class="experience-section container section-grid" id="experience" aria-labelledby="experience-title"><div><p class="section-label" data-i18n="experience.label">03 / MY JOURNEY</p><h2 class="journey-title" id="experience-title" data-i18n="experience.title">Different experiences.
+One curious mindset.</h2></div><div class="journey-content"><p class="eyebrow timeline-label" data-i18n="experience.work">EXPERIENCE</p><div class="timeline"><article class="timeline-item current" data-reveal><p class="eyebrow timeline-date" data-i18n="experience.sap.date">OCT 2025 — PRESENT</p><h3>Cloud Support Engineer</h3><p class="company" data-i18n="experience.sap.company">SAP · Gliwice, Poland</p><p data-i18n="experience.sap.body">Supporting SAP Commerce Cloud production environments. Investigating incidents, analyzing logs and monitoring, and working with customers and engineering teams on the next steps. Alongside support, I develop internal tools and automation.</p></article><article class="timeline-item" data-reveal><p class="eyebrow timeline-date" data-i18n="experience.care.date">DEC 2023 — SEP 2025</p><h3 data-i18n="experience.care.role">Healthcare Support Worker</h3><p class="company" data-i18n="experience.care.company">American Heart of Poland · Ustroń</p><p data-i18n="experience.care.body">Patient support in a health resort. A hands-on foundation in communication, organization and responsibility — and the context behind SanitariuszApp.</p></article></div><p class="eyebrow timeline-label education-label" data-i18n="education.label">EDUCATION</p><div class="timeline"><article class="timeline-item" data-reveal><p class="eyebrow timeline-date" data-i18n="education.uni.date">2023 — PRESENT</p><h3 data-i18n="education.uni.title">Computer Science</h3><p class="company" data-i18n="education.uni.school">Silesian University of Technology</p><p data-i18n="education.uni.body">Engineering degree in progress. Specialization: Data Analysis Engineering. Expected graduation: 2027.</p></article><article class="timeline-item" data-reveal><p class="eyebrow timeline-date" data-i18n="education.school.date">2019 — 2023</p><h3 data-i18n="education.school.title">Programming Technician</h3><p class="company" data-i18n="education.school.school">Władysław Szybiński School · Cieszyn</p><p data-i18n="education.school.body">Technical secondary education in programming. INF.03: web applications and databases. INF.04: application design, programming and testing.</p></article></div></div></section>
 
-        <section class="section-band" id="projects">
-          <div class="section-head reveal" data-reveal>
-            <p class="section-kicker">Projects</p>
-            <h2>Selected projects from my CV</h2>
-          </div>
+    <section class="toolbox-section container" aria-labelledby="toolbox-title"><div class="toolbox-heading"><div><p class="eyebrow" data-i18n="tools.label">THE TOOLBOX</p><h2 id="toolbox-title" data-i18n="tools.title">Tools I work with.</h2></div><p data-i18n="tools.note">Across production support, personal projects and studies.</p></div><div class="toolbox-grid"><div><h3 data-i18n="tools.cloud">Cloud &amp; operations</h3><ul class="tool-list"><li>SAP Commerce Cloud</li><li>Microsoft Azure / AKS</li><li>Kubernetes</li><li>Docker</li></ul></div><div><h3 data-i18n="tools.observe">Observability &amp; investigation</h3><ul class="tool-list"><li>Dynatrace</li><li>OpenSearch / Kibana</li><li>Azure Monitor</li><li>SQL</li></ul></div><div><h3 data-i18n="tools.build">Software &amp; data</h3><ul class="tool-list"><li>Python</li><li>Kotlin / Compose</li><li>Java / JavaScript</li><li>Firebase / Gemini API</li></ul></div><div><h3 data-i18n="tools.workflow">Development workflow</h3><ul class="tool-list"><li>Git / GitHub</li><li>VS Code / JetBrains</li><li>ServiceNow / Jira</li><li data-i18n="tools.aiworkflow">AI-assisted development</li></ul></div></div></section>
 
-          <div class="projects-grid">
-            <article class="project-card reveal" data-reveal>
-              <img src="images/thumbs/sanitariusz.png" alt="SanitariuszApp mobile interface preview" />
-              <div class="project-content">
-                <h3>SanitariuszApp</h3>
-                <p class="project-stack">Kotlin Multiplatform, Compose Multiplatform, Firebase Firestore, Android, iOS</p>
-                <p>
-                  A cross-platform mobile application built for a health resort to support daily patient-care operations. The current
-                  version provides medical staff with a unified workspace for managing patient records, tracking treatment procedures,
-                  coordinating shift handovers, and synchronizing updates across devices.
-                </p>
-                <p class="project-note">
-                  Role-based patient management, cross-device synchronization with Firebase, and administrative oversight for staff data
-                  and patient allocation.
-                </p>
-              </div>
-            </article>
+    <section class="interests-section" id="interests" aria-labelledby="interests-title"><div class="container"><div class="section-heading"><div><p class="section-label" data-i18n="interests.label">04 / BEYOND THE SCREEN</p><h2 id="interests-title"><span data-i18n="interests.title1">Curiosity doesn’t</span><em data-i18n="interests.title2">clock out.</em></h2></div><p data-i18n="interests.intro">The same urge to understand and improve things follows me outside work.</p></div><div class="interests-grid"><article data-reveal><svg class="interest-icon" aria-hidden="true"><use href="#i-car"/></svg><h3 data-i18n="interests.cars.title">Cars &amp; motorsport</h3><p data-i18n="interests.cars.body">Engineering you can feel. Automotive technology, car culture and the details that make a machine interesting.</p></article><article data-reveal><svg class="interest-icon" aria-hidden="true"><use href="#i-chip"/></svg><h3 data-i18n="interests.hardware.title">PC hardware &amp; DIY</h3><p data-i18n="interests.hardware.body">Building PCs, exploring components and improving my setup. I enjoy the hardware side as much as the software.</p></article><article data-reveal><svg class="interest-icon" aria-hidden="true"><use href="#i-game"/></svg><h3 data-i18n="interests.games.title">Gaming &amp; game development</h3><p data-i18n="interests.games.body">Playing games and exploring what goes into making them, including early experiments with 2D game development in Unity.</p></article></div></div></section>
 
-            <article class="project-card reveal" data-reveal>
-              <img src="images/thumbs/yca.png" alt="YouTube Comments Analyzer dashboard preview" />
-              <div class="project-content">
-                <h3>YouTube Comments Analyzer</h3>
-                <p class="project-stack">Python, Flask, JavaScript, jQuery, Google GenAI SDK, JSON</p>
-                <p>
-                  A web-based application that analyzes YouTube video comments to extract key insights and trends. It processes comments
-                  to identify top and most liked entries, detect common topics, and flag potential spam.
-                </p>
-                <p class="project-note">
-                  AI-powered insights and Q&amp;A based on comment data, topic detection, trend analysis, and an interactive frontend using
-                  JavaScript and jQuery.
-                </p>
-              </div>
-            </article>
-          </div>
-        </section>
+    <section class="contact-section container" id="contact" aria-labelledby="contact-title"><div class="contact-top"><p class="section-label" data-i18n="contact.label">05 / GET IN TOUCH</p><span class="contact-location"><svg class="icon" aria-hidden="true"><use href="#i-pin"/></svg><span data-i18n="hero.location">Silesia, Poland</span></span></div><div class="contact-main"><div><h2 id="contact-title"><span data-i18n="contact.title1">Good things start</span><em data-i18n="contact.title2">with a conversation.</em></h2><p data-i18n="contact.body">Interested in cloud support, practical software or something we could build together? Let’s connect.</p></div><a href="mailto:paszek0302@gmail.com" class="contact-arrow" aria-label="Send an email" data-i18n-aria="contact.email"><svg aria-hidden="true"><use href="#i-arrow"/></svg></a></div><div class="contact-bottom"><div class="email-row"><a class="email-link" href="mailto:paszek0302@gmail.com">paszek0302@gmail.com</a><button class="icon-button copy-button" id="copy-email" type="button" aria-label="Copy email address" data-i18n-aria="contact.copy"><svg class="icon" aria-hidden="true"><use href="#i-copy"/></svg></button></div><a class="text-link" href="assets/CV-Sebastian-Paszek.pdf" target="_blank" rel="noopener noreferrer"><span data-i18n="contact.cv">View my CV</span><svg class="icon" aria-hidden="true"><use href="#i-arrow"/></svg><span class="file-type">PDF</span></a></div></section>
+  </main>
 
-        <section class="section-band contact reveal" id="contact" data-reveal>
-          <p class="section-kicker">Contact</p>
-          <h2>Contact information</h2>
-          <div class="contact-grid">
-            <a href="mailto:paszek0302@gmail.com">paszek0302@gmail.com</a>
-            <a href="tel:+48503721183">+48 503 721 183</a>
-            <p>Silesia, Poland</p>
-            <p>Languages: English, Polish</p>
-          </div>
-        </section>
-      </main>
-
-      <footer class="footer reveal" data-reveal>
-        <p>&copy; <span id="year"></span> Sebastian Paszek. Software Developer Portfolio.</p>
-      </footer>
-    </div>
-
-    <script src="assets/js/main.js"></script>
-  </body>
+  <footer class="site-footer container"><a class="brand-mark" href="#top" aria-label="Sebastian Paszek">sp<span>.</span></a><div><p>© <span id="year">2026</span> Sebastian Paszek</p><p class="footer-note" data-i18n="footer.note">Personal portfolio · Last updated October 2026</p></div><a class="back-top" href="#top"><span data-i18n="footer.top">Back to top</span><svg class="icon" aria-hidden="true"><use href="#i-arrow"/></svg></a></footer>
+  <div class="toast" id="toast" role="status" aria-live="polite" aria-atomic="true"></div>
+  <dialog class="image-dialog" id="image-dialog" aria-labelledby="dialog-title"><div class="dialog-toolbar"><p id="dialog-title"></p><button class="icon-button" id="close-dialog" type="button" aria-label="Close preview" data-i18n-aria="dialog.close" autofocus><svg class="icon" aria-hidden="true"><use href="#i-close"/></svg></button></div><img id="dialog-image" alt=""></dialog>
+  <script src="assets/js/content.js" defer></script>
+  <script src="assets/js/app.js" defer></script>
+</body>
 </html>
