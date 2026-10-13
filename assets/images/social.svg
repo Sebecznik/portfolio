@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+<rect width="1200" height="630" fill="#f7f7f2"/>
+<rect x="922" width="278" height="630" fill="#24382b"/>
+<g stroke="#d5e49e" stroke-width="18"><path d="M1061 215v200M961 315h200M990 244l142 142M990 386l142-142"/></g>
+<text x="70" y="87" font-family="Arial,Helvetica,sans-serif" font-size="38" letter-spacing="-4" font-weight="bold" fill="#24382b">sp<tspan fill="#4e6843">.</tspan></text>
+<text x="149" y="79" font-family="Arial,Helvetica,sans-serif" font-size="19" fill="#242b25">Sebastian Paszek</text>
+<path d="M70 127H860" stroke="#dcded3"/>
+<text x="70" y="214" font-family="monospace" font-size="14" letter-spacing="2" fill="#4e6843">CLOUD SUPPORT ENGINEER AT SAP</text>
+<text x="66" y="310" font-family="Arial,Helvetica,sans-serif" font-size="79" letter-spacing="-4" fill="#242b25">Cloud engineer.</text>
+<text x="66" y="398" font-family="Arial,Helvetica,sans-serif" font-size="79" letter-spacing="-4" fill="#242b25">Builder by</text>
+<text x="68" y="494" font-family="Georgia,serif" font-style="italic" font-size="98" letter-spacing="-5" fill="#4e6843">curiosity.</text>
+<text x="73" y="573" font-family="Arial,Helvetica,sans-serif" font-size="16" fill="#626a60">SAP Commerce Cloud  /  Software  /  AI &amp; automation</text>
+<text x="965" y="572" font-family="monospace" font-size="12" letter-spacing="1" fill="#d5e49e">PORTFOLIO / 2026</text>
+</svg>

@@ -1,0 +1,116 @@
+<!doctype html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f7f7f2">
+  <title>{{meta.title}}</title>
+  <meta name="description" content="{{meta.description}}">
+  <link rel="canonical" href="https://sebecznik.github.io/portfolio/">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Sebastian Paszek — Cloud Support &amp; Software">
+  <meta property="og:description" content="Cloud engineer. Builder by curiosity. Explore my work in SAP Commerce Cloud, practical software and AI.">
+  <meta property="og:url" content="https://sebecznik.github.io/portfolio/">
+  <meta property="og:image" content="https://sebecznik.github.io/portfolio/assets/images/social.png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="Sebastian Paszek. Cloud engineer. Builder by curiosity.">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="icon" href="assets/images/favicon.svg" type="image/svg+xml">
+  <script src="assets/js/boot.js"></script>
+  <link rel="stylesheet" href="assets/css/styles.css">
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"Person","name":"Sebastian Paszek","url":"https://sebecznik.github.io/portfolio/","image":"https://sebecznik.github.io/portfolio/assets/images/portrait.png","jobTitle":"Cloud Support Engineer","worksFor":{"@type":"Organization","name":"SAP"},"knowsLanguage":["Polish","English"],"email":"mailto:paszek0302@gmail.com"}</script>
+</head>
+<body>
+  <a class="skip-link" href="#main" data-i18n="skip">{{skip}}</a>
+  <svg class="symbol-bank" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+    <symbol id="i-arrow" viewBox="0 0 24 24"><path d="M5 19 19 5M5 5h14v14"/></symbol>
+    <symbol id="i-right" viewBox="0 0 24 24"><path d="M4 12h16m-7-7 7 7-7 7"/></symbol>
+    <symbol id="i-plus" viewBox="0 0 24 24"><path d="M12 5v14M5 12h14"/></symbol>
+    <symbol id="i-cloud" viewBox="0 0 32 32"><path d="M9 24a7 7 0 0 1-1-13.93A9 9 0 0 1 25 11a6.5 6.5 0 0 1-1 13H9Z"/><path d="m12 17 4-4 4 4m-4-4v14"/></symbol>
+    <symbol id="i-code" viewBox="0 0 32 32"><path d="m10 8-8 8 8 8m12-16 8 8-8 8M19 4l-6 24"/></symbol>
+    <symbol id="i-spark" viewBox="0 0 32 32"><path d="m16 2 3.8 10.2L30 16l-10.2 3.8L16 30l-3.8-10.2L2 16l10.2-3.8L16 2Z"/></symbol>
+    <symbol id="i-car" viewBox="0 0 32 32"><path d="m5 12 3-7h16l3 7M4 13h24v12H4zM8 25v3m16-3v3M8 18h3m10 0h3M2 12h28"/></symbol>
+    <symbol id="i-chip" viewBox="0 0 32 32"><path d="M7 7h18v18H7zM12 12h8v8h-8zM12 2v5m8-5v5M12 25v5m8-5v5M2 12h5m-5 8h5m18-8h5m-5 8h5"/></symbol>
+    <symbol id="i-game" viewBox="0 0 32 32"><path d="M10 9h12c4 0 5 3 6 7l2 7c1 4-3 6-6 3l-4-4h-8l-4 4c-3 3-7 1-6-3l2-7c1-4 2-7 6-7Z"/><path d="M9 13v8m-4-4h8m10-2h.01m3 4h.01"/></symbol>
+    <symbol id="i-mail" viewBox="0 0 24 24"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m3 6 9 7 9-7"/></symbol>
+    <symbol id="i-copy" viewBox="0 0 24 24"><rect x="8" y="8" width="12" height="13" rx="2"/><path d="M15 8V5a2 2 0 0 0-2-2H5a2 2 0 0 0-2 2v9a2 2 0 0 0 2 2h3"/></symbol>
+    <symbol id="i-pin" viewBox="0 0 24 24"><path d="M19 10c0 5-7 11-7 11S5 15 5 10a7 7 0 1 1 14 0Z"/><circle cx="12" cy="10" r="2"/></symbol>
+    <symbol id="i-file" viewBox="0 0 24 24"><path d="M14 3H5v18h14V8l-5-5Zm0 0v5h5M8 13h8m-8 4h6"/></symbol>
+    <symbol id="i-close" viewBox="0 0 24 24"><path d="m6 6 12 12M6 18 18 6"/></symbol>
+  </svg>
+
+  <header class="site-header" id="top">
+    <div class="header-inner container">
+      <a class="brand" href="#top" aria-label="Sebastian Paszek — home"><span class="brand-mark">sp<span>.</span></span><span class="brand-name">Sebastian Paszek<span class="brand-caption">PERSONAL PORTFOLIO</span></span></a>
+      <nav class="main-nav" id="navigation" aria-label="Main navigation">
+        <a href="#about" data-i18n="nav.about">{{nav.about}}</a>
+        <a href="#projects" data-i18n="nav.work">{{nav.work}}</a>
+        <a href="#experience" data-i18n="nav.experience">{{nav.experience}}</a>
+      </nav>
+      <div class="header-controls">
+        <div class="language-switch" role="group" aria-label="{{nav.language}}" data-i18n-aria="nav.language">
+          <button type="button" data-language="en" aria-pressed="true" lang="en">EN</button><span aria-hidden="true">/</span><button type="button" data-language="pl" aria-pressed="false" lang="pl">PL</button>
+        </div>
+        <button class="icon-button theme-button" type="button" id="theme-toggle" aria-label="{{nav.theme}}" data-i18n-aria="nav.theme" aria-pressed="false"><svg class="icon moon" viewBox="0 0 24 24" aria-hidden="true"><path d="M20 15A8.5 8.5 0 0 1 9 4a8.5 8.5 0 1 0 11 11Z"/></svg><svg class="icon sun" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="4"/><path d="M12 2v2m0 16v2M2 12h2m16 0h2M5 5l1.5 1.5m11 11L19 19M5 19l1.5-1.5m11-11L19 5"/></svg></button>
+        <a class="header-contact" href="#contact"><span data-i18n="nav.contact">{{nav.contact}}</span><svg class="icon" aria-hidden="true"><use href="#i-arrow"/></svg></a>
+        <button class="icon-button menu-button" type="button" id="menu-toggle" aria-label="{{nav.menu}}" data-i18n-aria="nav.menu" aria-expanded="false" aria-controls="navigation"><span></span><span></span></button>
+      </div>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="hero container" aria-labelledby="hero-title">
+      <div class="hero-copy">
+        <p class="eyebrow"><span class="tiny-star" aria-hidden="true">✳</span><span data-i18n="hero.greeting">{{hero.greeting}}</span></p>
+        <h1 id="hero-title"><span data-i18n="hero.line1">{{hero.line1}}</span><span data-i18n="hero.line2">{{hero.line2}}</span><em data-i18n="hero.line3">{{hero.line3}}</em></h1>
+        <p class="hero-description" data-i18n="hero.description">{{hero.description}}</p>
+        <div class="hero-actions"><a class="button button-primary" href="#projects"><span data-i18n="hero.projects">{{hero.projects}}</span><svg class="icon" aria-hidden="true"><use href="#i-arrow"/></svg></a><a class="text-link" href="assets/CV-Sebastian-Paszek.pdf" target="_blank" rel="noopener noreferrer"><svg class="icon" aria-hidden="true"><use href="#i-file"/></svg><span data-i18n="hero.cv">{{hero.cv}}</span><span class="file-type">PDF</span></a></div>
+        <div class="hero-meta"><span><svg class="icon" aria-hidden="true"><use href="#i-pin"/></svg><span data-i18n="hero.location">{{hero.location}}</span></span><span class="meta-dot" aria-hidden="true"></span><span data-i18n="hero.languages">{{hero.languages}}</span></div>
+      </div>
+      <div class="hero-visual">
+        <div class="portrait-frame"><img class="portrait" src="assets/images/portrait.png" width="1624" height="1536" fetchpriority="high" alt="{{hero.portrait}}" data-i18n-alt="hero.portrait"><div class="portrait-signature" aria-hidden="true"><span data-i18n="hero.always">{{hero.always}}</span><br><em data-i18n="hero.curious">{{hero.curious}}</em><svg viewBox="0 0 110 65"><path d="M5 42C35 5 63 8 95 22m-7-17 12 19-23 6"/></svg></div></div>
+        <div class="current-card"><div class="current-top"><span class="status-light" aria-hidden="true"></span><span data-i18n="hero.current">{{hero.current}}</span><svg class="icon" aria-hidden="true"><use href="#i-cloud"/></svg></div><p data-i18n="hero.role">{{hero.role}}</p><span data-i18n="hero.since">{{hero.since}}</span></div>
+        <p class="portrait-note" data-i18n="hero.note">{{hero.note}}</p>
+      </div>
+    </section>
+
+    <div class="tool-strip container"><p class="eyebrow" data-i18n="stack.label">{{stack.label}}</p><div class="tool-strip-items"><span>SAP Commerce Cloud</span><span>Microsoft Azure</span><span>Kubernetes</span><span>Dynatrace</span><span>Python</span><span>Kotlin</span></div></div>
+
+    <section class="about-section container section-grid" id="about" aria-labelledby="about-title">
+      <p class="section-label" data-i18n="about.label">{{about.label}}</p>
+      <div class="section-main" data-reveal><h2 id="about-title"><span data-i18n="about.title1">{{about.title1}}</span><em data-i18n="about.title2">{{about.title2}}</em></h2><div class="about-copy"><p class="lead" data-i18n="about.body">{{about.body}}</p><p data-i18n="about.body2">{{about.body2}}</p></div><dl class="facts"><div><dt>2025</dt><dd data-i18n="about.fact1">{{about.fact1}}</dd></div><div><dt>2027<span>*</span></dt><dd data-i18n="about.fact2">{{about.fact2}}</dd></div><div><dt>PL / EN</dt><dd data-i18n="about.fact3">{{about.fact3}}</dd></div></dl></div>
+    </section>
+
+    <section class="expertise-section" aria-labelledby="expertise-title"><div class="container expertise-inner"><div class="expertise-intro" data-reveal><p class="eyebrow" data-i18n="expertise.label">{{expertise.label}}</p><h2 id="expertise-title" data-i18n="expertise.title">{{expertise.title}}</h2><p data-i18n="expertise.intro">{{expertise.intro}}</p><div class="abstract-mark" aria-hidden="true"><svg viewBox="0 0 160 160"><path d="M80 8v144M8 80h144M29 29l102 102M29 131 131 29"/></svg><span>THINK.<br>BUILD.<br>IMPROVE.</span></div></div>
+      <div class="expertise-list">
+        <details class="expertise-item" open><summary><svg class="expertise-icon" aria-hidden="true"><use href="#i-cloud"/></svg><h3 data-i18n="expertise.cloud.title">{{expertise.cloud.title}}</h3><svg class="icon plus" aria-hidden="true"><use href="#i-plus"/></svg></summary><div class="expertise-content"><p data-i18n="expertise.cloud.body">{{expertise.cloud.body}}</p><ul><li data-i18n="expertise.cloud.item1">{{expertise.cloud.item1}}</li><li data-i18n="expertise.cloud.item2">{{expertise.cloud.item2}}</li><li data-i18n="expertise.cloud.item3">{{expertise.cloud.item3}}</li></ul></div></details>
+        <details class="expertise-item"><summary><svg class="expertise-icon" aria-hidden="true"><use href="#i-code"/></svg><h3 data-i18n="expertise.software.title">{{expertise.software.title}}</h3><svg class="icon plus" aria-hidden="true"><use href="#i-plus"/></svg></summary><div class="expertise-content"><p data-i18n="expertise.software.body">{{expertise.software.body}}</p><ul><li data-i18n="expertise.software.item1">{{expertise.software.item1}}</li><li data-i18n="expertise.software.item2">{{expertise.software.item2}}</li><li data-i18n="expertise.software.item3">{{expertise.software.item3}}</li></ul></div></details>
+        <details class="expertise-item"><summary><svg class="expertise-icon" aria-hidden="true"><use href="#i-spark"/></svg><h3 data-i18n="expertise.ai.title">{{expertise.ai.title}}</h3><svg class="icon plus" aria-hidden="true"><use href="#i-plus"/></svg></summary><div class="expertise-content"><p data-i18n="expertise.ai.body">{{expertise.ai.body}}</p><ul><li data-i18n="expertise.ai.item1">{{expertise.ai.item1}}</li><li data-i18n="expertise.ai.item2">{{expertise.ai.item2}}</li><li data-i18n="expertise.ai.item3">{{expertise.ai.item3}}</li></ul></div></details>
+      </div>
+    </div></section>
+
+    <section class="projects-section container" id="projects" aria-labelledby="projects-title"><div class="section-heading"><div><p class="section-label" data-i18n="projects.label">{{projects.label}}</p><h2 id="projects-title"><span data-i18n="projects.title1">{{projects.title1}}</span><em data-i18n="projects.title2">{{projects.title2}}</em></h2></div><p data-i18n="projects.intro">{{projects.intro}}</p></div>
+      <div class="project-grid">
+        <article class="project" data-reveal><a class="project-image" href="assets/images/sanitariusz.png" data-preview="mobile" aria-label="{{projects.preview}} — SanitariuszApp"><img src="assets/images/sanitariusz.png" width="2940" height="1656" loading="lazy" decoding="async" alt="{{projects.mobile.alt}}" data-i18n-alt="projects.mobile.alt"><span class="preview-icon"><svg class="icon" aria-hidden="true"><use href="#i-arrow"/></svg></span><span class="preview-text" data-i18n="projects.preview">{{projects.preview}}</span></a><div class="project-body"><p class="eyebrow" data-i18n="projects.mobile.category">{{projects.mobile.category}}</p><h3 data-i18n="projects.mobile.title">{{projects.mobile.title}}</h3><p class="project-description" data-i18n="projects.mobile.description">{{projects.mobile.description}}</p><ul class="tags"><li>Kotlin</li><li>Compose Multiplatform</li><li>Firebase</li><li>Android / iOS</li></ul><details class="project-details"><summary><span data-i18n="projects.detail">{{projects.detail}}</span><svg class="icon plus" aria-hidden="true"><use href="#i-plus"/></svg></summary><div class="project-story"><p class="eyebrow" data-i18n="projects.why">{{projects.why}}</p><p data-i18n="projects.mobile.problem">{{projects.mobile.problem}}</p><p class="eyebrow" data-i18n="projects.how">{{projects.how}}</p><p data-i18n="projects.mobile.approach">{{projects.mobile.approach}}</p><p class="project-focus" data-i18n="projects.mobile.focus">{{projects.mobile.focus}}</p></div></details></div></article>
+        <article class="project" data-reveal><a class="project-image project-image-blue" href="assets/images/comments-analyzer.png" data-preview="ai" aria-label="{{projects.preview}} — YouTube Comments Analyzer"><img src="assets/images/comments-analyzer.png" width="2814" height="1490" loading="lazy" decoding="async" alt="{{projects.ai.alt}}" data-i18n-alt="projects.ai.alt"><span class="preview-icon"><svg class="icon" aria-hidden="true"><use href="#i-arrow"/></svg></span><span class="preview-text" data-i18n="projects.preview">{{projects.preview}}</span></a><div class="project-body"><p class="eyebrow" data-i18n="projects.ai.category">{{projects.ai.category}}</p><h3 data-i18n="projects.ai.title">{{projects.ai.title}}</h3><p class="project-description" data-i18n="projects.ai.description">{{projects.ai.description}}</p><ul class="tags"><li>Python</li><li>JavaScript</li><li>Gemini API</li></ul><details class="project-details"><summary><span data-i18n="projects.detail">{{projects.detail}}</span><svg class="icon plus" aria-hidden="true"><use href="#i-plus"/></svg></summary><div class="project-story"><p class="eyebrow" data-i18n="projects.why">{{projects.why}}</p><p data-i18n="projects.ai.problem">{{projects.ai.problem}}</p><p class="eyebrow" data-i18n="projects.how">{{projects.how}}</p><p data-i18n="projects.ai.approach">{{projects.ai.approach}}</p><p class="project-focus" data-i18n="projects.ai.focus">{{projects.ai.focus}}</p></div></details></div></article>
+      </div>
+      <article class="internal-project" data-reveal><div class="internal-copy"><p class="eyebrow" data-i18n="projects.internal.category">{{projects.internal.category}}</p><h3 data-i18n="projects.internal.title">{{projects.internal.title}}</h3><p data-i18n="projects.internal.description">{{projects.internal.description}}</p><p data-i18n="projects.internal.scope">{{projects.internal.scope}}</p><span class="internal-note"><span aria-hidden="true">↳</span><span data-i18n="projects.internal.note">{{projects.internal.note}}</span></span></div><div class="workflow-figure"><p class="eyebrow" data-i18n="projects.internal.diagram">{{projects.internal.diagram}}</p><ol class="workflow-steps"><li><span class="step-no">01</span><span data-i18n="projects.internal.queue">{{projects.internal.queue}}</span><span class="mini-bars" aria-hidden="true"><i></i><i></i><i></i></span></li><li><span class="step-no">02</span><span data-i18n="projects.internal.priority">{{projects.internal.priority}}</span><span class="mini-priority" aria-hidden="true">↑</span></li><li><span class="step-no">03</span><span data-i18n="projects.internal.handover">{{projects.internal.handover}}</span><svg class="icon" aria-hidden="true"><use href="#i-right"/></svg></li></ol><p class="workflow-caption" data-i18n="projects.internal.caption">{{projects.internal.caption}}</p></div></article>
+    </section>
+
+    <section class="experience-section container section-grid" id="experience" aria-labelledby="experience-title"><div><p class="section-label" data-i18n="experience.label">{{experience.label}}</p><h2 class="journey-title" id="experience-title" data-i18n="experience.title">{{experience.title}}</h2></div><div class="journey-content"><p class="eyebrow timeline-label" data-i18n="experience.work">{{experience.work}}</p><div class="timeline"><article class="timeline-item current" data-reveal><p class="eyebrow timeline-date" data-i18n="experience.sap.date">{{experience.sap.date}}</p><h3>Cloud Support Engineer</h3><p class="company" data-i18n="experience.sap.company">{{experience.sap.company}}</p><p data-i18n="experience.sap.body">{{experience.sap.body}}</p></article><article class="timeline-item" data-reveal><p class="eyebrow timeline-date" data-i18n="experience.care.date">{{experience.care.date}}</p><h3 data-i18n="experience.care.role">{{experience.care.role}}</h3><p class="company" data-i18n="experience.care.company">{{experience.care.company}}</p><p data-i18n="experience.care.body">{{experience.care.body}}</p></article></div><p class="eyebrow timeline-label education-label" data-i18n="education.label">{{education.label}}</p><div class="timeline"><article class="timeline-item" data-reveal><p class="eyebrow timeline-date" data-i18n="education.uni.date">{{education.uni.date}}</p><h3 data-i18n="education.uni.title">{{education.uni.title}}</h3><p class="company" data-i18n="education.uni.school">{{education.uni.school}}</p><p data-i18n="education.uni.body">{{education.uni.body}}</p></article><article class="timeline-item" data-reveal><p class="eyebrow timeline-date" data-i18n="education.school.date">{{education.school.date}}</p><h3 data-i18n="education.school.title">{{education.school.title}}</h3><p class="company" data-i18n="education.school.school">{{education.school.school}}</p><p data-i18n="education.school.body">{{education.school.body}}</p></article></div></div></section>
+
+    <section class="toolbox-section container" aria-labelledby="toolbox-title"><div class="toolbox-heading"><div><p class="eyebrow" data-i18n="tools.label">{{tools.label}}</p><h2 id="toolbox-title" data-i18n="tools.title">{{tools.title}}</h2></div><p data-i18n="tools.note">{{tools.note}}</p></div><div class="toolbox-grid"><div><h3 data-i18n="tools.cloud">{{tools.cloud}}</h3><ul class="tool-list"><li>SAP Commerce Cloud</li><li>Microsoft Azure / AKS</li><li>Kubernetes</li><li>Docker</li></ul></div><div><h3 data-i18n="tools.observe">{{tools.observe}}</h3><ul class="tool-list"><li>Dynatrace</li><li>OpenSearch / Kibana</li><li>Azure Monitor</li><li>SQL</li></ul></div><div><h3 data-i18n="tools.build">{{tools.build}}</h3><ul class="tool-list"><li>Python</li><li>Kotlin / Compose</li><li>Java / JavaScript</li><li>Firebase / Gemini API</li></ul></div><div><h3 data-i18n="tools.workflow">{{tools.workflow}}</h3><ul class="tool-list"><li>Git / GitHub</li><li>VS Code / JetBrains</li><li>ServiceNow / Jira</li><li data-i18n="tools.aiworkflow">{{tools.aiworkflow}}</li></ul></div></div></section>
+
+    <section class="interests-section" id="interests" aria-labelledby="interests-title"><div class="container"><div class="section-heading"><div><p class="section-label" data-i18n="interests.label">{{interests.label}}</p><h2 id="interests-title"><span data-i18n="interests.title1">{{interests.title1}}</span><em data-i18n="interests.title2">{{interests.title2}}</em></h2></div><p data-i18n="interests.intro">{{interests.intro}}</p></div><div class="interests-grid"><article data-reveal><svg class="interest-icon" aria-hidden="true"><use href="#i-car"/></svg><h3 data-i18n="interests.cars.title">{{interests.cars.title}}</h3><p data-i18n="interests.cars.body">{{interests.cars.body}}</p></article><article data-reveal><svg class="interest-icon" aria-hidden="true"><use href="#i-chip"/></svg><h3 data-i18n="interests.hardware.title">{{interests.hardware.title}}</h3><p data-i18n="interests.hardware.body">{{interests.hardware.body}}</p></article><article data-reveal><svg class="interest-icon" aria-hidden="true"><use href="#i-game"/></svg><h3 data-i18n="interests.games.title">{{interests.games.title}}</h3><p data-i18n="interests.games.body">{{interests.games.body}}</p></article></div></div></section>
+
+    <section class="contact-section container" id="contact" aria-labelledby="contact-title"><div class="contact-top"><p class="section-label" data-i18n="contact.label">{{contact.label}}</p><span class="contact-location"><svg class="icon" aria-hidden="true"><use href="#i-pin"/></svg><span data-i18n="hero.location">{{hero.location}}</span></span></div><div class="contact-main"><div><h2 id="contact-title"><span data-i18n="contact.title1">{{contact.title1}}</span><em data-i18n="contact.title2">{{contact.title2}}</em></h2><p data-i18n="contact.body">{{contact.body}}</p></div><a href="mailto:paszek0302@gmail.com" class="contact-arrow" aria-label="{{contact.email}}" data-i18n-aria="contact.email"><svg aria-hidden="true"><use href="#i-arrow"/></svg></a></div><div class="contact-bottom"><div class="email-row"><a class="email-link" href="mailto:paszek0302@gmail.com">paszek0302@gmail.com</a><button class="icon-button copy-button" id="copy-email" type="button" aria-label="{{contact.copy}}" data-i18n-aria="contact.copy"><svg class="icon" aria-hidden="true"><use href="#i-copy"/></svg></button></div><a class="text-link" href="assets/CV-Sebastian-Paszek.pdf" target="_blank" rel="noopener noreferrer"><span data-i18n="contact.cv">{{contact.cv}}</span><svg class="icon" aria-hidden="true"><use href="#i-arrow"/></svg><span class="file-type">PDF</span></a></div></section>
+  </main>
+
+  <footer class="site-footer container"><a class="brand-mark" href="#top" aria-label="Sebastian Paszek">sp<span>.</span></a><div><p>© <span id="year">2026</span> Sebastian Paszek</p><p class="footer-note" data-i18n="footer.note">{{footer.note}}</p></div><a class="back-top" href="#top"><span data-i18n="footer.top">{{footer.top}}</span><svg class="icon" aria-hidden="true"><use href="#i-arrow"/></svg></a></footer>
+  <div class="toast" id="toast" role="status" aria-live="polite" aria-atomic="true"></div>
+  <dialog class="image-dialog" id="image-dialog" aria-labelledby="dialog-title"><div class="dialog-toolbar"><p id="dialog-title"></p><button class="icon-button" id="close-dialog" type="button" aria-label="{{dialog.close}}" data-i18n-aria="dialog.close" autofocus><svg class="icon" aria-hidden="true"><use href="#i-close"/></svg></button></div><img id="dialog-image" alt=""></dialog>
+  <script src="assets/js/content.js" defer></script>
+  <script src="assets/js/app.js" defer></script>
+</body>
+</html>
