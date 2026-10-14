@@ -34,6 +34,7 @@
     document.title = text('meta.title');
     $('meta[name="description"]').setAttribute('content', text('meta.description'));
     if (dialog.open && previewKey) updatePreviewText();
+    document.dispatchEvent(new CustomEvent('portfolio:languagechange'));
     if (persist) {
       save('sp-language', next);
       try {
@@ -113,7 +114,7 @@
   $('#year').textContent = String(new Date().getFullYear());
 
   if ('IntersectionObserver' in window) {
-    const sections = $$('main > section[id]').filter(section => ['about', 'projects', 'experience', 'contact'].includes(section.id));
+    const sections = $$('main > section[id]').filter(section => ['playground', 'about', 'projects', 'experience', 'contact'].includes(section.id));
     const navObserver = new IntersectionObserver(entries => {
       entries.forEach(entry => {
         if (!entry.isIntersecting) return;

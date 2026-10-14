@@ -15,6 +15,6 @@ for key, value in copy.items():
 rendered = re.sub(r'\{\{([\w.]+)\}\}', lambda m: html.escape(copy[m[1]]['en']), template)
 (ROOT / 'index.html').write_text(rendered)
 (ROOT / 'assets/js/content.js').write_text('window.PORTFOLIO_COPY = '+json.dumps(copy, ensure_ascii=False, separators=(',', ':'))+';\n')
-for source, target in [('styles.css','assets/css/styles.css'),('app.js','assets/js/app.js'),('boot.js','assets/js/boot.js')]:
+for source, target in [('styles.css','assets/css/styles.css'),('app.js','assets/js/app.js'),('boot.js','assets/js/boot.js'),('playground.js','assets/js/playground.js'),('playground.css','assets/css/playground.css')]:
     shutil.copyfile(ROOT / 'src' / source, ROOT / target)
 print(f'Built EN/PL portfolio: {len(copy)} translations.')

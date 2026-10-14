@@ -534,5 +534,257 @@
   "tools.aiworkflow": {
     "en": "AI-assisted development",
     "pl": "Programowanie z pomocą AI"
+  },
+  "play.nav": {
+    "en": "Play",
+    "pl": "Zagraj"
+  },
+  "play.label": {
+    "en": "THE PLAYFUL SIDE",
+    "pl": "TROCHĘ ZABAWY"
+  },
+  "play.title": {
+    "en": "Curiosity at work.",
+    "pl": "Z ciekawości."
+  },
+  "play.titleAccent": {
+    "en": "And at play.",
+    "pl": "Dla zabawy."
+  },
+  "play.intro": {
+    "en": "Three tiny games, inspired by the things I work with. Your move.",
+    "pl": "Trzy małe gry inspirowane tym, czym zajmuję się na co dzień. Twój ruch."
+  },
+  "play.choose": {
+    "en": "Choose a mini game",
+    "pl": "Wybierz minigrę"
+  },
+  "play.moves": {
+    "en": "Moves",
+    "pl": "Ruchy"
+  },
+  "play.you": {
+    "en": "YOU",
+    "pl": "TY"
+  },
+  "play.cloud": {
+    "en": "CLOUD",
+    "pl": "CHMURA"
+  },
+  "play.distance": {
+    "en": "Distance",
+    "pl": "Dystans"
+  },
+  "play.best": {
+    "en": "Best",
+    "pl": "Rekord"
+  },
+  "play.highest": {
+    "en": "Highest",
+    "pl": "Najwyższy"
+  },
+  "play.north": {
+    "en": "Up",
+    "pl": "W górę"
+  },
+  "play.east": {
+    "en": "Right",
+    "pl": "W prawo"
+  },
+  "play.south": {
+    "en": "Down",
+    "pl": "W dół"
+  },
+  "play.west": {
+    "en": "Left",
+    "pl": "W lewo"
+  },
+  "play.start": {
+    "en": "Let’s go →",
+    "pl": "Ruszamy →"
+  },
+  "play.resume": {
+    "en": "Keep going →",
+    "pl": "Lecimy dalej →"
+  },
+  "play.again": {
+    "en": "Try again →",
+    "pl": "Jeszcze raz →"
+  },
+  "play.jump": {
+    "en": "Jump ↑",
+    "pl": "Skok ↑"
+  },
+  "play.pause": {
+    "en": "Pause",
+    "pl": "Pauza"
+  },
+  "play.network.name": {
+    "en": "Connect the cloud",
+    "pl": "Połącz sieć"
+  },
+  "play.network.tag": {
+    "en": "01 / CONNECTIONS",
+    "pl": "01 / POŁĄCZENIA"
+  },
+  "play.network.title": {
+    "en": "Find your way to the cloud.",
+    "pl": "Znajdź drogę do chmury."
+  },
+  "play.network.instructions": {
+    "en": "Rotate the tiles to connect your terminal on the left to the cloud on the right. No timer. Just a little logic.",
+    "pl": "Obracaj kafelki i połącz terminal po lewej z chmurą po prawej. Bez pośpiechu — wystarczy znaleźć drogę."
+  },
+  "play.network.controls": {
+    "en": "Click / tap to rotate · Enter or Space also works",
+    "pl": "Kliknij / dotknij, żeby obrócić · Działa też Enter i spacja"
+  },
+  "play.network.caption": {
+    "en": "ONE GOOD CONNECTION",
+    "pl": "DOBRE POŁĄCZENIE"
+  },
+  "play.network.board": {
+    "en": "Rotate the nine connection tiles",
+    "pl": "Obróć dziewięć kafelków z połączeniami"
+  },
+  "play.network.tile": {
+    "en": "Tile {n}. Connections: {directions}. Activate to rotate.",
+    "pl": "Kafelek {n}. Połączenia: {directions}. Naciśnij, aby obrócić."
+  },
+  "play.network.hint": {
+    "en": "Follow the green signal.",
+    "pl": "Podążaj za zielonym sygnałem."
+  },
+  "play.network.won": {
+    "en": "Connected. All the way to the cloud. ✓",
+    "pl": "Połączenie z chmurą gotowe. ✓"
+  },
+  "play.network.new": {
+    "en": "New layout ↗",
+    "pl": "Nowy układ ↗"
+  },
+  "play.network.next": {
+    "en": "Another connection? ↗",
+    "pl": "Kolejne połączenie? ↗"
+  },
+  "play.runner.tag": {
+    "en": "02 / MOMENTUM",
+    "pl": "02 / REFLEKS"
+  },
+  "play.runner.title": {
+    "en": "One packet. A clear path.",
+    "pl": "Mały pakiet. Wielka podróż."
+  },
+  "play.runner.instructions": {
+    "en": "Jump over obstacles and see how far your data packet can travel. One button, one more try.",
+    "pl": "Przeskakuj przeszkody i sprawdź, jak daleko dotrze Twój pakiet danych. Jeden przycisk, jeszcze jedna próba."
+  },
+  "play.runner.controls": {
+    "en": "Space / ↑ or tap the track · Esc to pause",
+    "pl": "Spacja / ↑ lub dotknij toru · Esc: pauza"
+  },
+  "play.runner.scene": {
+    "en": "A small data packet jumping over obstacles",
+    "pl": "Mały pakiet danych przeskakujący przeszkody"
+  },
+  "play.runner.title.ready": {
+    "en": "Ready to send?",
+    "pl": "Gotowy do wysłania?"
+  },
+  "play.runner.title.running": {
+    "en": "On the move.",
+    "pl": "Pakiet w drodze."
+  },
+  "play.runner.title.paused": {
+    "en": "A little breather.",
+    "pl": "Krótka przerwa."
+  },
+  "play.runner.title.over": {
+    "en": "Packet delivered… almost.",
+    "pl": "Pakiet dostarczony… prawie."
+  },
+  "play.runner.body.ready": {
+    "en": "A tiny endless runner. Tap or press Space to jump.",
+    "pl": "Mały endless runner. Dotknij toru lub naciśnij spację, żeby skoczyć."
+  },
+  "play.runner.body.running": {
+    "en": "Keep the path clear.",
+    "pl": "Uważaj na przeszkody."
+  },
+  "play.runner.body.paused": {
+    "en": "Your run is waiting right here.",
+    "pl": "Twoja rozgrywka czeka dokładnie tutaj."
+  },
+  "play.runner.body.over": {
+    "en": "You made it {score} m. Another try?",
+    "pl": "Udało się pokonać {score} m. Jeszcze raz?"
+  },
+  "play.runner.message.ready": {
+    "en": "Your best stays in this browser.",
+    "pl": "Rekord zostaje w tej przeglądarce."
+  },
+  "play.runner.message.running": {
+    "en": "Tap / Space = jump",
+    "pl": "Dotknięcie / spacja = skok"
+  },
+  "play.runner.message.paused": {
+    "en": "Paused. No rush.",
+    "pl": "Pauza. Bez pośpiechu."
+  },
+  "play.runner.result": {
+    "en": "Run complete: {score} m.",
+    "pl": "Koniec biegu: {score} m."
+  },
+  "play.bytes.tag": {
+    "en": "03 / PATTERNS",
+    "pl": "03 / LOGIKA"
+  },
+  "play.bytes.title": {
+    "en": "Small bits. Bigger ideas.",
+    "pl": "Z małych liczb do 128."
+  },
+  "play.bytes.instructions": {
+    "en": "Slide the tiles. Matching numbers merge: 2, 4, 8… Can you reach 128 before the board fills up?",
+    "pl": "Przesuwaj kafelki. Takie same liczby łączą się: 2, 4, 8… Dotrzesz do 128, zanim zabraknie miejsca?"
+  },
+  "play.bytes.controls": {
+    "en": "Arrow keys on the board · Swipe · Buttons below",
+    "pl": "Strzałki na planszy · Przesunięcie palcem · Przyciski poniżej"
+  },
+  "play.bytes.new": {
+    "en": "Start fresh ↗",
+    "pl": "Nowa rozgrywka ↗"
+  },
+  "play.bytes.board": {
+    "en": "Byte Shift, 4 by 4 number puzzle. Use arrow keys.",
+    "pl": "Byte Shift, układanka liczbowa 4 na 4. Użyj strzałek."
+  },
+  "play.bytes.buttons": {
+    "en": "Move all tiles",
+    "pl": "Przesuń wszystkie kafelki"
+  },
+  "play.bytes.cell": {
+    "en": "Cell {n}: {value}",
+    "pl": "Pole {n}: {value}"
+  },
+  "play.bytes.empty": {
+    "en": "empty",
+    "pl": "puste"
+  },
+  "play.bytes.playing": {
+    "en": "2 + 2. Then think bigger.",
+    "pl": "2 + 2. I tak dalej."
+  },
+  "play.bytes.won": {
+    "en": "128. Nicely connected! ✓",
+    "pl": "128. Pięknie połączone! ✓"
+  },
+  "play.bytes.lost": {
+    "en": "No moves left. A fresh start?",
+    "pl": "Brak ruchów. Spróbujesz od nowa?"
+  },
+  "play.noscript": {
+    "en": "Enable JavaScript to play the mini games.",
+    "pl": "Włącz JavaScript, aby zagrać w minigry."
   }
 }
